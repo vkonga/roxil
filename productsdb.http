@@ -9,18 +9,3 @@ GET http://localhost:3000/product-range/06
 
 ###
 GET http://localhost:3000/product-category/04
-
-### POST Request to Add a Product
-POST http://localh̥ost:3000/products
-Content-Type: application/json
-
-{
-    "id": 61,
-    "title": "Product 1",
-    "price": 99.99,
-    "description": "Description of Product 1",
-    "category": "Category 1",
-    "image": "https://example.com/image1.jpg",
-    "sold": 0,
-    "dateOfSale": "2024-05-06"
-}
